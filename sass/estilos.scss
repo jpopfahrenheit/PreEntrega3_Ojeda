@@ -1,0 +1,91 @@
+/* Color para cada pagina */
+
+/* página 1 */
+body.inicio {
+  background-color: #ff583321;
+}
+/* página 2 */
+body.nosotros {
+  background-color: #33ff581f;
+}
+/* página 3 */
+body.servicios {
+  background-color: #5833ff13;
+}
+/* página 4 */
+body.ejemplos {
+  background-color: #f0f0f0;
+}
+/* página 5 */
+body.contacto {
+  background-color: #33ffff1a;
+}
+/* FIN Color para cada página */ 
+
+.mi_textarea {
+  height: 200px;
+  width: 100%;
+}
+
+.mi_btn_enviar {
+  width: 100px;
+}
+
+/* ENCAJAR IFRAME */
+
+#powerbi-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+
+  /* para relacion 16:9 */
+}
+
+/* estilo iframe dentro del contenedor */
+#powerbi-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/* FIN ENCAJAR IFRAME */
+
+
+
+/* ANIMAR BANNER */
+
+.superposicion {
+  position: relative;
+  overflow: hidden;
+}
+
+.superposicion:hover::after {
+  transform: translateY(0);
+}
+
+.superposicion::after {
+  content: attr(data-content); /* Utilizamos un atributo personalizado para el contenido */
+  font-size: 2rem;
+  color: #fff;
+  background-color: #16456198;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+
+/* FIN ANIMAR BANNER */
+
+/* CARD STYLE */
+
+.card-title {
+  font-size: 1.25em;
+  font-weight: 600;  
+}
+
+/* FIN CARD STYLE */

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* Color para cada pagina */
+/* página 1 */
+/* line 4, ../3er_entrega/sass/estilos.scss */
+body.inicio {
+  background-color: #ff583321;
+}
+
+/* página 2 */
+/* line 8, ../3er_entrega/sass/estilos.scss */
+body.nosotros {
+  background-color: #33ff581f;
+}
+
+/* página 3 */
+/* line 12, ../3er_entrega/sass/estilos.scss */
+body.servicios {
+  background-color: #5833ff13;
+}
+
+/* página 4 */
+/* line 16, ../3er_entrega/sass/estilos.scss */
+body.ejemplos {
+  background-color: #f0f0f0;
+}
+
+/* página 5 */
+/* line 20, ../3er_entrega/sass/estilos.scss */
+body.contacto {
+  background-color: #33ffff1a;
+}
+
+/* FIN Color para cada página */
+/* line 25, ../3er_entrega/sass/estilos.scss */
+.mi_textarea {
+  height: 200px;
+  width: 100%;
+}
+
+/* line 30, ../3er_entrega/sass/estilos.scss */
+.mi_btn_enviar {
+  width: 100px;
+}
+
+/* ENCAJAR IFRAME */
+/* line 36, ../3er_entrega/sass/estilos.scss */
+#powerbi-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* para relacion 16:9 */
+}
+
+/* estilo iframe dentro del contenedor */
+/* line 45, ../3er_entrega/sass/estilos.scss */
+#powerbi-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* FIN ENCAJAR IFRAME */
+/* ANIMAR BANNER */
+/* line 59, ../3er_entrega/sass/estilos.scss */
+.superposicion {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 64, ../3er_entrega/sass/estilos.scss */
+.superposicion:hover::after {
+  transform: translateY(0);
+}
+
+/* line 68, ../3er_entrega/sass/estilos.scss */
+.superposicion::after {
+  content: attr(data-content);
+  /* Utilizamos un atributo personalizado para el contenido */
+  font-size: 2rem;
+  color: #fff;
+  background-color: #16456198;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+}
+
+/* FIN ANIMAR BANNER */
+/* CARD STYLE */
+/* line 86, ../3er_entrega/sass/estilos.scss */
+.card-title {
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+/* FIN CARD STYLE */
+
+/*# sourceMappingURL=estilos.css.map */
