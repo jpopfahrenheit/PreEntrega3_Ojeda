@@ -31,6 +31,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Data Analytics Company | Descubre el poder del análisis de datos con Power BI.</title>
 
@@ -75,7 +77,7 @@
         <section class="container-sm mx-auto p-3 m-3">
 
             <!-- BANNER -->
-            <div class="text-center mx-auto superposicion" data-content="Inicio">
+            <div class="text-center mx-auto superposicion" data-content="Inicio" data-aos="flip-up" data-aos-duration="2000">
                 <img src="img/portada.jpg" alt="BANNER" class="img-fluid rounded">
             </div>
 
@@ -94,10 +96,10 @@
             <!-- contenido -->
             <div>
                 <div class="row align-items-center">
-                    <div class="col-md-6 col-sd-12 text-center">
+                    <div class="col-md-6 col-sd-12 text-center" data-aos="fade-right" data-aos-duration="3000">
                         <img src="img/power_bi.jpg" alt="Logo Power Bi" class="img-fluid rounded">
                     </div>
-                    <div class="col-md-6 col-sd-12">
+                    <div class="col-md-6 col-sd-12" data-aos="fade-left" data-aos-duration="3000">
                         <p class="p-3">Nuestra empresa se especializa en ofrecer servicios de desarrollo de tableros
                             utilizando la poderosa herramienta Power BI de Microsoft. Creamos visualizaciones de datos
                             efectivas y personalizadas para ayudar a las empresas a tomar decisiones informadas.
@@ -112,7 +114,7 @@
                     <hr>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-md-6 col-sd-12">
+                    <div class="col-md-6 col-sd-12" data-aos="fade-right"data-aos-duration="3000">
                         <p class="p-3">Trabajamos en estrecha colaboración con nuestros clientes para comprender sus
                             necesidades
                             específicas y convertir sus datos en visualizaciones claras y significativas. Nuestro
@@ -122,7 +124,7 @@
                             datos sólidos, impulsando su éxito empresarial.
                         </p>
                     </div>
-                    <div class="col-md-6 col-sd-12 text-center p-2">
+                    <div class="col-md-6 col-sd-12 text-center p-2" data-aos="fade-left" data-aos-duration="3000">
                         <img src="img/power-bi2.jpg" alt="Imagen de una Lapton con Power Bi" class="img-fluid rounded">
                     </div>
                 </div>
@@ -134,7 +136,7 @@
                 <!-- Fila | CARDs -->
                 <div class="row">
                     <!-- Columan 1-->
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 p-2 d-flex flex-row align-items-stretch">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 p-2 d-flex flex-row align-items-stretch" data-aos="flip-left" data-aos-duration="3000">
                         <div class="card p-2">
                             <img src="img/visualizacion.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -146,7 +148,7 @@
                         </div>
                     </div>
                     <!-- Columan 2-->
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 p-2 d-flex flex-row align-items-stretch">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 p-2 d-flex flex-row align-items-stretch" data-aos="flip-up" data-aos-duration="3000">
                         <div class="card p-2">
                             <img src="img/mejora-procesos.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -158,7 +160,7 @@
                         </div>
                     </div>
                     <!-- Columan 3-->
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 p-2 d-flex flex-row align-items-stretch">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 p-2 d-flex flex-row align-items-stretch" data-aos="flip-right" data-aos-duration="3000">
                         <div class="card p-2">
                             <img src="img/soporte.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -204,6 +206,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
